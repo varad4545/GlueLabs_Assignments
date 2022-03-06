@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300;1,400&family=Pacifico&display=swap");
+
+body {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5em;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+ul {
+  margin: 0;
+  padding-left: 100px;
+}
+header {
+  background: #fff;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  min-height: 70px;
+}
+header a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header .branding {
+  float: left;
+  padding-right: 100x;
+  padding-left: 100px;
+}
+header nav {
+  float: right;
+  margin-top: 25px;
+  margin-right: 150px;
+}
+header .highlight {
+  color: black;
+  font-family: "Pacifico", cursive;
+
+  margin-right: 60px;
+}
+header a:hover {
+  color: red;
+  font-weight: bold;
+}
+#showcase {
+  padding-top: 100px;
+  min-height: 400px;
+  background: url("../images/wallpaer3.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background-size: cover;
+  padding-bottom: 100px;
+
+  overflow: scroll;
+}
+#showcase h1 {
+  margin-top: 125px;
+  font-size: 30px;
+}
+#showcase p {
+  margin-top: 30px;
+}
+.secondheader {
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+.secondheader h1 {
+  padding-top: 70px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+#boxes {
+  background: url("../images/laptop3.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 -500x;
+  width: 100%;
+  margin-top: 20px;
+  background-size: cover;
+  height: 800px;
+}
+.container2 {
+  padding-top: 230px;
+  margin-left: 40px;
+}
+#boxes .box {
+  padding-top: 100px;
+  float: left;
+  text-align: center;
+  width: 30%;
+
+  border-style: solid;
+  border-color: white;
+  padding: 10px;
+}
+#boxes .box img {
+  width: 90px;
+  height: 90px;
+}
+#boxes h3 {
+  color: white;
+}
+#boxes p {
+  color: white;
+}
+#boxes #img1 {
+  width: 90px;
+}
+#boxes #img2 {
+  width: 70px;
+}
+#boxes #img3 {
+  height: 80px;
+  width: 80px;
+  margin-top: 10px;
+  background-color: black;
+}
+footer {
+  padding: 20px;
+  margin-top: 100px;
+  color: #ffff;
+  background-color: black;
+  text-align: center;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+#footer1 {
+  padding: 20px;
+  margin-top: 100px;
+  color: #ffff;
+  background-color: black;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.main-col {
+  width: 50%;
+  height: 500px;
+  float: left;
+  margin-left: 100px;
+}
+#sidebar {
+  padding-top: 40px;
+  margin-right: 80px;
+  width: 30%;
+  float: right;
+}
+.dark {
+  background: gray;
+  color: white;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.dark1 {
+  background: gray;
+  color: white;
+  padding: 15px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+#services {
+  padding-right: 50px;
+  border-radius: 20px;
+}
+#services li {
+  list-style: none;
+  padding: 10px;
+  border: #cccc solid 1px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  color: white;
+}
+#services li h3 {
+  font-weight: bold;
+  font-size: 25px;
+}
+input {
+  width: 70%;
+  padding-top: 20px;
+  background-color: lightgrey;
+  margin-top: -7px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 15px;
+  border-style: none;
+  border-radius: 20px;
+}
+
+.main-col1 {
+  width: 50%;
+  height: 1000px;
+  float: left;
+  margin-left: 30px;
+}
+.page-title1 {
+  margin-left: 100px;
+  font-size: 40px;
+  color: white;
+}
+.button_1 {
+  width: 30%;
+  padding-top: 20px;
+  background-color: white;
+  margin-top: 20px;
+  font-family: "Lato", sans-serif;
+  padding: 10px;
+  font-size: 15px;
+  border-style: none;
+  border-radius: 20px;
+}
+#main1 {
+  background: url("../images/laptop3.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: 300px 700px;
+}
+@media (max-width: 768px) {
+  header #branding,
+  header nav,
+  #boxes .box,
+  .main-col {
+    float: none;
+    text-align: center;
+
+    width: 60%;
+  }
+  .main-col1 {
+    float: none;
+    text-align: left;
+
+    width: 80%;
+  }
+  #page-tile1 {
+    margin-left: 40px;
+  }
+  #sidebar {
+    float: none;
+    text-align: center;
+    margin-bottom: 400px;
+    width: 100%;
+  }
+  .quote div label {
+    padding-right: 290px;
+  }
+
+  #boxes {
+    height: 1300px;
+  }
+  header nav {
+    margin-top: 20px;
+    padding-right: 200px;
+    width: 100%;
+  }
+  #showcase h1 {
+    font-size: 25px;
+  }
+  #boxes .box:nth-child(3) {
+    margin-bottom: 180px;
+  }
+}
